@@ -1,0 +1,45 @@
+.page {
+  padding: 20px;
+  min-height: 400px;
+}
+
+.page h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.page p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.page-links {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.page-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4a90e2;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.page-link:hover {
+  background-color: #357ab8;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.user-profile {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
